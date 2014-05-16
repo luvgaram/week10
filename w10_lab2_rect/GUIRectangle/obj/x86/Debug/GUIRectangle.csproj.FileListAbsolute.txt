@@ -1,0 +1,35 @@
+D:\Work\Project\C#\Week10\GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.Form1.resources
+D:\Work\Project\C#\Week10\GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.Properties.Resources.resources
+D:\Work\Project\C#\Week10\GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.csproj.GenerateResource.Cache
+C:\Users\Garam\Dropbox\2014_1\Projects\GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.csprojResolveAssemblyReference.cache
+C:\Users\Garam\Dropbox\2014_1\Projects\GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.Form1.resources
+C:\Users\Garam\Dropbox\2014_1\Projects\GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.Properties.Resources.resources
+C:\Users\Garam\Dropbox\2014_1\Projects\GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.csproj.GenerateResource.Cache
+C:\Users\Garam\Dropbox\2014_1\Projects\GUIRectangle\GUIRectangle\bin\Debug\GUIRectangle.exe
+C:\Users\Garam\Dropbox\2014_1\Projects\GUIRectangle\GUIRectangle\bin\Debug\GUIRectangle.pdb
+C:\Users\Garam\Dropbox\2014_1\Projects\GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.exe
+C:\Users\Garam\Dropbox\2014_1\Projects\GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.pdb
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.exe
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.pdb
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_GUIRectangle\GUIRectangle\bin\Debug\GUIRectangle.exe
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_GUIRectangle\GUIRectangle\bin\Debug\GUIRectangle.pdb
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.csprojResolveAssemblyReference.cache
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.Form1.resources
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.Properties.Resources.resources
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_GUIRectangle\GUIRectangle\obj\x86\Debug\GUIRectangle.csproj.GenerateResource.Cache
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_lab2_rect\GUIRectangle\obj\x86\Debug\GUIRectangle.exe
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_lab2_rect\GUIRectangle\obj\x86\Debug\GUIRectangle.pdb
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_lab2_rect\GUIRectangle\bin\Debug\GUIRectangle.exe
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_lab2_rect\GUIRectangle\bin\Debug\GUIRectangle.pdb
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_lab2_rect\GUIRectangle\obj\x86\Debug\GUIRectangle.csprojResolveAssemblyReference.cache
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_lab2_rect\GUIRectangle\obj\x86\Debug\GUIRectangle.Form1.resources
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_lab2_rect\GUIRectangle\obj\x86\Debug\GUIRectangle.Properties.Resources.resources
+C:\Users\Garam\Dropbox\2014_1\Projects\w10_lab2_rect\GUIRectangle\obj\x86\Debug\GUIRectangle.csproj.GenerateResource.Cache
+F:\Down\My Dropbox\Dropbox\2014_1\Projects\w10_lab2_Rect\GUIRectangle\obj\x86\Debug\GUIRectangle.exe
+F:\Down\My Dropbox\Dropbox\2014_1\Projects\w10_lab2_Rect\GUIRectangle\obj\x86\Debug\GUIRectangle.pdb
+F:\Down\My Dropbox\Dropbox\2014_1\Projects\w10_lab2_Rect\GUIRectangle\bin\Debug\GUIRectangle.exe
+F:\Down\My Dropbox\Dropbox\2014_1\Projects\w10_lab2_Rect\GUIRectangle\bin\Debug\GUIRectangle.pdb
+F:\Down\My Dropbox\Dropbox\2014_1\Projects\w10_lab2_Rect\GUIRectangle\obj\x86\Debug\GUIRectangle.csprojResolveAssemblyReference.cache
+F:\Down\My Dropbox\Dropbox\2014_1\Projects\w10_lab2_Rect\GUIRectangle\obj\x86\Debug\GUIRectangle.Form1.resources
+F:\Down\My Dropbox\Dropbox\2014_1\Projects\w10_lab2_Rect\GUIRectangle\obj\x86\Debug\GUIRectangle.Properties.Resources.resources
+F:\Down\My Dropbox\Dropbox\2014_1\Projects\w10_lab2_Rect\GUIRectangle\obj\x86\Debug\GUIRectangle.csproj.GenerateResource.Cache
