@@ -6,22 +6,13 @@ using System.Drawing;
 
 namespace GUIRectangle
 {
-    
 
-    class Rectangle
+    class Shape
     {
         protected Point LeftTop;
         protected Point RightBottom;
 
-        /*public Rectangle() : this(0, 0)
-        {
-        }
-
-        public Rectangle(int Left, int Top) : this(Left, Top, Left + 100, Top + 100)
-        {
-        }*/
-
-        public Rectangle(int Left, int Top, int Right, int Bottom)
+        public Shape(int Left, int Top, int Right, int Bottom)
         {
             this.LeftTop = new Point(Left, Top);
             this.RightBottom = new Point(Right, Bottom);
@@ -40,20 +31,44 @@ namespace GUIRectangle
                 RightBottom.Y - LeftTop.Y);
 
         }
-     }
+    }
 
-     class Square : Rectangle
-     {
-        private Brush Color;
-
-        public Square(int Left, int Top, int Width, Brush Color) : base(Left, Top, Left + Width, Top + Width)
+    class Rectangle : Shape
+    {
+        public Rectangle(int Left, int Top, int Right, int Bottom)
+            : base(Left, Top, Right, Bottom)
         {
-            this.Color = Color;
+            this.LeftTop = new Point(Left, Top);
+            this.RightBottom = new Point(Right, Bottom);
         }
 
         public override void Show(Graphics g)
         {
-            g.FillRectangle(Color,
+            g.FillRectangle(Brushes.SkyBlue,
+                LeftTop.X, LeftTop.Y,
+                RightBottom.X - LeftTop.X,
+                RightBottom.Y - LeftTop.Y);
+
+            g.DrawRectangle(Pens.Black,
+                LeftTop.X, LeftTop.Y,
+                RightBottom.X - LeftTop.X,
+                RightBottom.Y - LeftTop.Y);
+
+        }
+    }
+
+    class Square : Shape
+    {
+        public Square(int Left, int Top, int Right, int Bottom)
+            : base(Left, Top, Right, Bottom)
+        {
+            this.LeftTop = new Point(Left, Top);
+            this.RightBottom = new Point(Right, Top + (Right - Left));
+        }
+
+        public override void Show(Graphics g)
+        {
+            g.FillRectangle(Brushes.Red,
                 LeftTop.X, LeftTop.Y,
                 RightBottom.X - LeftTop.X,
                 RightBottom.Y - LeftTop.Y);
@@ -63,49 +78,44 @@ namespace GUIRectangle
                 RightBottom.X - LeftTop.X,
                 RightBottom.Y - LeftTop.Y);
         }
-     }
+    }
 
-     class Triangle : Rectangle
-     {
-         private Brush Color;
+    class Triangle : Shape
+    {
+        public Triangle(int Left, int Top, int Right, int Bottom)
+            : base(Left, Top, Right, Bottom)
+        {
+            this.LeftTop = new Point(Left, Top);
+            this.RightBottom = new Point(Right, Bottom);
+        }
 
-         public Triangle(int Left, int Top, int Width, Brush Color)
-             : base(Left, Top, Left + Width, Top + Width)
-         {
-             this.Color = Color;
+        public override void Show(Graphics g)
+        {
+            Point[] pts = new Point[] { new Point((LeftTop.X + RightBottom.Y) / 2, LeftTop.X), new Point(LeftTop.X, RightBottom.Y), new Point(RightBottom.Y, RightBottom.X) };
+            g.FillPolygon(Brushes.Yellow, pts);
+            g.DrawPolygon(Pens.Black, pts);
+        }
+    }
 
-         }
+    class Ellipse : Shape
+    {
+        public Ellipse(int Left, int Top, int Right, int Bottom)
+            : base(Left, Top, Right, Bottom)
+        {
+        }
 
-         public override void Show(Graphics g)
-         {
-             Point[] pts = new Point[] { new Point((LeftTop.X+RightBottom.Y)/2, LeftTop.X), new Point(LeftTop.X, RightBottom.Y), new Point(RightBottom.Y, RightBottom.X) };
-             g.FillPolygon(Color, pts);
-             g.DrawPolygon(Pens.Black, pts);
-         }
-     }
+        public override void Show(Graphics g)
+        {
+            g.FillEllipse(Brushes.Pink,
+                LeftTop.X, LeftTop.Y,
+                RightBottom.X - LeftTop.X,
+                RightBottom.Y - LeftTop.Y);
 
-     class Ellipse : Rectangle
-     {
-         private Brush Color;
+            g.DrawEllipse(Pens.Black,
+                LeftTop.X, LeftTop.Y,
+                RightBottom.X - LeftTop.X,
+                RightBottom.Y - LeftTop.Y);
 
-         public Ellipse(int Left, int Top, int Width, Brush Color)
-             : base(Left, Top, Left + Width, Top + Width)
-         {
-             this.Color = Color;
-         }
-
-         public override void Show(Graphics g)
-         {
-             g.FillEllipse(Brushes.SkyBlue,
-                 LeftTop.X, LeftTop.Y,
-                 RightBottom.X - LeftTop.X,
-                 RightBottom.Y - LeftTop.Y);
-
-             g.DrawEllipse(Pens.Black,
-                 LeftTop.X, LeftTop.Y,
-                 RightBottom.X - LeftTop.X,
-                 RightBottom.Y - LeftTop.Y);
-
-         }
-     }
+        }
+    }
 }

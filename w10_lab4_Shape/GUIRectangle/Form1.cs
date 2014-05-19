@@ -22,14 +22,14 @@ namespace GUIRectangle
         {
             using (Graphics g = this.CreateGraphics())
             {
-                foreach (Rectangle rectangle in rectangles)
+                foreach (Shape shape in shapes)
                 {
-                    rectangle.Show(g);
+                    shape.Show(g);
                 }
             }
         }
 
-        private ArrayList rectangles = new ArrayList();
+        private ArrayList shapes = new ArrayList();
 
         private void Form1_DoubleClick(object sender, EventArgs e)
         {
@@ -42,23 +42,23 @@ namespace GUIRectangle
             Brush Color = Brushes.SkyBlue;
 
             Rectangle rectangle = new Rectangle(left, top, right, bottom);
-            Square square = new Square(left, top, right, Color);
-            Ellipse ellipse = new Ellipse(left, top, right, Color);
-            Triangle triangle = new Triangle(left, top, right, Color);
+            Square square = new Square(left, top, right, bottom);
+            Ellipse ellipse = new Ellipse(left, top, right, bottom);
+            Triangle triangle = new Triangle(left, top, right, bottom);
 
             switch (type)
             { 
                 case 1:
-                    rectangles.Add(square);
+                    shapes.Add(square);
                     break;
                 case 2:
-                    rectangles.Add(rectangle);
+                    shapes.Add(rectangle);
                     break;
                 case 3:
-                    rectangles.Add(ellipse);
+                    shapes.Add(ellipse);
                     break;
                 case 4:
-                    rectangles.Add(triangle);
+                    shapes.Add(triangle);
                     break;
              }
             Form1_Paint(null, null);

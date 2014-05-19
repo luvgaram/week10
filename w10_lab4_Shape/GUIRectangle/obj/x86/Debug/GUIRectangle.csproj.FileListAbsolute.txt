@@ -43,3 +43,5 @@ C:\Users\Garam\Dropbox\2014_1\Projects\w10\w10_lab4_Shape\GUIRectangle\obj\x86\D
 C:\Users\Garam\Dropbox\2014_1\Projects\w10\w10_lab4_Shape\GUIRectangle\obj\x86\Debug\GUIRectangle.Form1.resources
 C:\Users\Garam\Dropbox\2014_1\Projects\w10\w10_lab4_Shape\GUIRectangle\obj\x86\Debug\GUIRectangle.Properties.Resources.resources
 C:\Users\Garam\Dropbox\2014_1\Projects\w10\w10_lab4_Shape\GUIRectangle\obj\x86\Debug\GUIRectangle.csproj.GenerateResource.Cache
+F:\Down\My Dropbox\Dropbox\2014_1\Projects\w10\w10_lab4_Shape\GUIRectangle\obj\x86\Debug\GUIRectangle.exe
+F:\Down\My Dropbox\Dropbox\2014_1\Projects\w10\w10_lab4_Shape\GUIRectangle\obj\x86\Debug\GUIRectangle.pdb
